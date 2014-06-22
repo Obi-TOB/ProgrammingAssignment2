@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Analog to example
 
-## Write a short comment describing this function
+## Create a cashed matrix with getter and setter methods
 
 makeCacheMatrix <- function(x = matrix()) {
   m <<- NULL
@@ -18,7 +17,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## function that returns the inverse of a cashed matrix
+## - either the cashed value
+## - or a calculated inverse and setting the cashed value for the next time
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
